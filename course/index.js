@@ -72,3 +72,27 @@ let val = "    helllloooo  ";
 // console.log(val, val.trim(), val.trim().length);
 
 // 5. Arrays
+const numbers = [1, 2, 3, 4];
+
+numbers.push(20); // add an element at the end of the array
+numbers.unshift(100); // add an element at the beginning of the array
+numbers.pop(); // removes an element from the end of the array
+numbers.shift(); // removes an element from the beginning of the array
+// console.log(numbers);
+
+//indexOf()
+let pos = numbers.indexOf(3);
+// console.log(pos);
+
+//splice - removes an element from array based on the position
+let removedElements = numbers.splice(1, 3);
+// console.log(removedElements);
+
+// join()
+let arr = ["one", "two", "three"];
+console.log(arr.join(", "));
+
+// reverse()
+console.log(arr.reverse());
+
+// 6. Date object
