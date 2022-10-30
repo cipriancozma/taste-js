@@ -90,9 +90,68 @@ let removedElements = numbers.splice(1, 3);
 
 // join()
 let arr = ["one", "two", "three"];
-console.log(arr.join(", "));
+// console.log(arr.join(", "));
 
 // reverse()
-console.log(arr.reverse());
+// console.log(arr.reverse());
 
 // 6. Date object
+let date = new Date();
+// console.log(date);
+// console.log(date.getFullYear());
+// console.log(date.getMonth());
+// console.log(date.getDay());
+// console.log(date.getDate());
+
+// 7. Object literals
+let person = {
+  name: "Ciprian",
+  lastName: "Czm",
+  age: 30,
+  isMarried: true,
+};
+
+let person2 = {
+  name: "Ciprian",
+  lastName: "Czm",
+  age: 30,
+  isMarried: true,
+};
+
+// console.log(person == person2);
+let person3 = person;
+// console.log(person == person3);
+person.age = 20;
+// console.log(`age person: ${person.age}, age person3: ${person3.age}`); // same object, points to the same reference in the heap memory
+
+// 8. IF ELSE
+let responses = ["yes", "no", "of course", "without doubt", "no, no chance"];
+
+// let question = prompt("The question is? ");
+// if (question) {
+//   let randomResponse = Math.floor(Math.random() * 5);
+//   console.log(`The response is: ${responses[randomResponse]}`);
+// } else {
+//   console.log("You have cancel it.");
+// }
+
+// 9. SWITCH
+// let fruit = prompt("Introduce a fruit: ");
+// switch (fruit) {
+//   case "apple":
+//     console.log("You have introduced apple");
+//     break;
+
+//   case "pineapple":
+//     console.log("You have introduced pineapple");
+//     break;
+
+//   case "strawberry":
+//     console.log("You have introduced strawberry");
+//     break;
+
+//   default:
+//     console.log(`We do not have ${fruit} in the menu`);
+// }
+
+// 10. FOR
