@@ -155,3 +155,28 @@ let responses = ["yes", "no", "of course", "without doubt", "no, no chance"];
 // }
 
 // 10. FOR
+let maxArr = [-2, 5, 3, 7, 4];
+let maximum = maxArr[0];
+
+for (let i = 0; i < maxArr.length; i++) {
+  if (maxArr[i] > maximum) {
+    maximum = maxArr[i];
+  }
+}
+
+// console.log("Max: ", maximum);
+
+// 11. WHILE
+// let i = 0;
+// while (i < 12) {
+//   console.log("Ciprian" + i);
+//   i++;
+// }
+
+// let i = 0;
+// do {
+//   i = i + 1;
+//   console.log(i);
+// } while (i < 3);
+
+// 12. FUNCTIONS
