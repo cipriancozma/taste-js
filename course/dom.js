@@ -19,3 +19,12 @@
 // down -> children
 
 // 16. Create dinamic HTML elements
+// document.createElement()
+// appendChild() -> add the element to DOM
+// append / prepend
+// insertBefore
+// before / after
+
+// 17. Delete and replace HTML elements
+// remove() - removeChild()
+// replaceWith() - replaceChild()
