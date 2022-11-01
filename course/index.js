@@ -180,3 +180,33 @@ for (let i = 0; i < maxArr.length; i++) {
 // } while (i < 3);
 
 // 12. FUNCTIONS
+let list = [
+  { name: "Daniel", weight: 75 },
+  { name: "Maria", weight: 58 },
+  { name: "Andrew", weight: 68 },
+  { name: "Ciprian", weight: 70 },
+  { name: "Romica", weight: 80 },
+];
+
+function weight(people) {
+  let result = 0;
+  for (let i = 0; i < people.length; i++) {
+    result += people[i].weight;
+  }
+  return result;
+}
+
+// console.log(weight(list));
+
+// CLOSURES
+let x = 4;
+function externFct() {
+  let y = 5;
+  function internFct() {
+    let z = 1;
+    return x + y + z;
+  }
+  return internFct();
+}
+
+// console.log(externFct());
