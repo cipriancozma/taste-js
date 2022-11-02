@@ -28,3 +28,12 @@
 // 17. Delete and replace HTML elements
 // remove() - removeChild()
 // replaceWith() - replaceChild()
+
+// 18. EVENTS in JS
+// 'click' -> addEventListener()
+
+// 19. EVENTS for mouse
+// mouseenter, mouseleave, mousemove, mousedown, mouseup
+
+// 20. EVENTS for keyboard
+// keydown, keypress, keyup
