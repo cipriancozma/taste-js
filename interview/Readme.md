@@ -38,17 +38,25 @@ R.3) No, it doesn't change the behaviour and it does not mean you have to end al
 
 REST VS SPREAD OPERATOR
 Q.1) Can we use arguments object in arrow function?
-R.1.)
+R.1.) No, it cannot be used.
 
 Q.2) Which is the best way to create new arrays with assignment?
-R.2)
+R.2) The best way to assign arrays is to use spread operator (e.g. let arr = [...arr1, 5, 6, 7])
 
 Q.3) How can you handle the “n” number of parameters passed to a function ? or create a function which can take any number of parameters and returns sum or max or any other such calculative values.
-R.3)
+R.3) Using the rest operator
 
 Q.4) Can the rest operator be placed anywhere in the function parameter list? Or
 function test(...a,b){
 //statements
 }
 Is this piece of code valid? Give the reason.
-R.4)
+R.4) No, it should be placed as the last element, if we have more parameters, the rest one should be the last one.
+
+Q.1) How will you put a validation for positive or negative Infinity?
+R.1)
+
+Q.2) What will be the output of this code?
+Code:
+console.log(1/0);
+R.2)
