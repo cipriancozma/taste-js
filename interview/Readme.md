@@ -55,9 +55,38 @@ R.4) No, it should be placed as the last element, if we have more parameters, th
 
 WHEN DO WE GET INFINITY || -INFINITY AS OUTPUT  
 Q.1) How will you put a validation for positive or negative Infinity?  
-R.1)
+R.1) In a if condition (e.g. num === Number.POSITIVE_INFINITY))
 
 Q.2) What will be the output of this code?  
 Code:
 console.log(1/0);  
+R.2) It will return Infinity
+
+WHEN DO WE GET NAN AS OUTPUT  
+Q.1) What will be the output of the below statement?
+console.log(NaN==NaN);  
+R.1) It returns False because it is always a unique value
+
+Q.2) What is the difference between isNaN() and isFinite() method?  
+R.2) isNan() checks if the number is not a number or not, isFinite() checks for NaN as well as Infinity values
+
+MUST KNOW POINTS OF ARROW FUNCTIONS  
+Q.1) Explain the syntactical features of arrow function.  
+R.1)
+
+Q.2) Why “this” does not work in arrow function?  
 R.2)
+
+Q.3) Explain output of following code with reason.
+const obj={
+method:()=>{
+console.log(this);
+}
+}  
+R.3)
+
+Q.4) How can you handle arguments object like functionality in arrow function?  
+R.4)
+
+Q.5) Can you write IIFE with arrow function syntax?  
+R.5)
