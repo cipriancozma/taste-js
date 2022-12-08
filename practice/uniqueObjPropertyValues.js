@@ -22,7 +22,8 @@ let products = [
 ];
 
 function getUnique(arr) {
-  return arr;
+  const tempArr = arr.map((item) => item.company);
+  return [...new Set(tempArr)];
 }
 
 console.log(getUnique(products));
