@@ -51,4 +51,4 @@ const newArr = new MyArray();
 
 // console.log(newArr);
 
-// Hash Tables Introduction
+// Hash Tables Introduction -> see the hashtables exercise from practice folder

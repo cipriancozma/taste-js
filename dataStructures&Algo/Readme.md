@@ -22,3 +22,8 @@
 
 5. Hash Tables
    R: Similar with Objects.
+   Hash Tables are good if we want to have quick access to same values.
+
+6. Hash Functions
+   R: These kind of functions receive an input and outputs a gibberish (like MD5 Hash)
+   The same input always output the same result.
