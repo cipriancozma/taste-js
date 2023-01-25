@@ -27,4 +27,8 @@
    After these steps we will go again to the global execution context and continue with the code.
 
 5. Window & this keyword
+   R: The shortest JS program is...is...an empty file :)))))
+   Window is a global object which is created along with a global execution context.
+
+6. Undefined vs Not Defined
    R:
