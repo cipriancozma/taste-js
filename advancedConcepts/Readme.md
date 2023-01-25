@@ -16,4 +16,15 @@
      JS has a call stack. In the bottom of the stack we have our global execution context. Every function is put on the call stack, after is run and we have a result, the function will be moved out of the stack.
 
 3. Hoisting in JS - variables && functions
+   R: You can access values that are returned from a function or variable even before you initialize or put some value in it.
+   In the first phase, JS will allocate memory to each variable and function. For variables will initialize them with undefined.
+   Arrow functions behaves as a variable so if you are calling the function before it's initialization, it will throw an error.
+
+4. How functions work in JS?
+   R: When we invoke a function, first of all to that function it will be allocate some space in the memory and it will point to the function code.
+   When a function is called, an execution context is created. As soon as the execution context is created, this function will be put in the call stack.
+   After we finish with the code from the function, the execution context is gone and also the function that is in the call stack will be gone.
+   After these steps we will go again to the global execution context and continue with the code.
+
+5. Window & this keyword
    R:
