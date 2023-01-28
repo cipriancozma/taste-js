@@ -31,4 +31,35 @@
    Window is a global object which is created along with a global execution context.
 
 6. Undefined vs Not Defined
-   R:
+   R: Before a line of code is executed, JS will define that value as being undefined.
+   After the execution of that line of code, JS will define the variable with its value.
+   Not defined refers to a variable that is not defined. For instance if we want to console.log variable x and we haven't defined variable x, then the console will throw an error "x is not defined".
+
+7. JS Engine
+   R: Our computer understands only 1 and 0. The computer will only understand JS with the help with a JS Engine.
+   Basically JS Engine is a computer program that you give JavaScript code to it and it tells the computer how to execute it.
+
+8. Interpreters and Compilers
+   R: With interpreters we translate and read the files line by line.
+   With compilers we do exactly what Babel (JS compiler that takes modern JS code and return browser compatible JS) and TypeScript (a wrapper over JS that compiles down to JS) do, take one language and convert it into a different one.
+   Interpreters transform each high level program statement one by one into machine code, during the program run.
+   Compilers transform code written in a high level programming language into machine code at once before the program runs.
+   In JavaScript -> there it is a combination between the both of them -> JIT Compiler
+
+9. Writing Optimized Code
+   R: We should write code that is predictible and doesn't confuse the compiler.
+
+10. Stack Overflow
+    R: Can be caused by keep going and running nested functions inside each other (a function that call itself).
+    Recursion can be the function that can get a stack overflow.
+
+11. Garbage Collection
+    R: JS is a garbage collected language. If we don't need variables, JS do the job for us and clean up the memory.
+
+12. JS Runtime
+    R: Every browser has its Web API.
+    These APIs are asynchronous.
+    The Web API contains DOM, fetch(), setTimeout()
+
+13. The Scope Chain, Scope & Lexical Environment
+    R:
