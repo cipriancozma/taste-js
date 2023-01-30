@@ -27,3 +27,8 @@
 6. Hash Functions
    R: These kind of functions receive an input and outputs a gibberish (like MD5 Hash)
    The same input always output the same result.
+
+7. Big O
+   R: A way to identify which piece of code is better than the other.
+   With Big O we measure time complexity (in how fast is our code) and space complexity (how much memory we use)
+   When we are measuring Big O, we always measure worst case.
