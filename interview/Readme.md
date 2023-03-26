@@ -1,4 +1,5 @@
-NULL VS UNDEFINED  
+# NULL VS UNDEFINED
+
 Q.1) What is "undefined" in JavaScript ?  
 R.1) A variable which is not assigned a value is "undefined"
 
@@ -8,7 +9,8 @@ R.2) First comparison will be equal to true because the both represent nothingle
 Q.3) Can you explicitly assign "undefined" to a variable ? (let i = undefined)  
 R.3) Yes, you can, because "undefined" itself is a keyword you can use
 
-FUNCTION SCOPE VS BLOCK SCOPE  
+# FUNCTION SCOPE VS BLOCK SCOPE
+
 Q.1) What is hoisting in javascript ?  
 R.1) Process that is happening behind the scene and it is bringing the declarations on top
 
@@ -18,7 +20,8 @@ R.2) It is the brackets {} that creates separate scope for declarations existing
 Q.3) What is the scope of a variable ?  
 R.3) It is the availability or visibility of a variable
 
-AUTOMATIC SEMICOLON INSERTION (ASI)  
+# AUTOMATIC SEMICOLON INSERTION (ASI)
+
 Q.1) Should you terminate all lines by a “;” ?  
 R.1) It is a good practice to have a semicolon at the end.
 
@@ -36,7 +39,8 @@ R.2) Because JS will put a semicolon at the end of return and it will return und
 Q.3) Can ‘use strict’ statement or the strict mode change the behavior of ASI ?  
 R.3) No, it doesn't change the behaviour and it does not mean you have to end all lines with a ";"
 
-REST VS SPREAD OPERATOR  
+# REST VS SPREAD OPERATOR
+
 Q.1) Can we use arguments object in arrow function?  
 R.1.) No, it cannot be used.
 
@@ -53,7 +57,8 @@ function test(...a,b){
 Is this piece of code valid? Give the reason.  
 R.4) No, it should be placed as the last element, if we have more parameters, the rest one should be the last one.
 
-WHEN DO WE GET INFINITY || -INFINITY AS OUTPUT  
+# WHEN DO WE GET INFINITY || -INFINITY AS OUTPUT
+
 Q.1) How will you put a validation for positive or negative Infinity?  
 R.1) In a if condition (e.g. num === Number.POSITIVE_INFINITY))
 
@@ -62,7 +67,8 @@ Code:
 console.log(1/0);  
 R.2) It will return Infinity
 
-WHEN DO WE GET NAN AS OUTPUT  
+# WHEN DO WE GET NAN AS OUTPUT
+
 Q.1) What will be the output of the below statement?
 console.log(NaN==NaN);  
 R.1) It returns False because it is always a unique value
@@ -70,7 +76,8 @@ R.1) It returns False because it is always a unique value
 Q.2) What is the difference between isNaN() and isFinite() method?  
 R.2) isNan() checks if the number is not a number or not, isFinite() checks for NaN as well as Infinity values
 
-MUST KNOW POINTS OF ARROW FUNCTIONS  
+# MUST KNOW POINTS OF ARROW FUNCTIONS
+
 Q.1) Explain the syntactical features of arrow function.  
 R.1)
 
